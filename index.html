@@ -12,22 +12,22 @@
             <h1>CSS Controller</h1>
             <div class="control-unit">
                 <label for="font_size">Font Size: </label>
-                <input type="range" data-unit="px" class="font_size"><br>
+                <input type="range" data-unit="px" name="font_size" min = "10" max ="50" class="inputs"><br>
 
                 <label for="font_family">Font Family : </label>
-                <select name="font_family" id="">
-                    <option value="font1">font1</option>
-                    <option value="font2">font2</option>
-                    <option value="font3">font3</option>
-                    <option value="font4">font4</option>
+                <select name="font_family" class="inputs">
+                    <option value="monospace">monospace</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="sans-serif">sans-serif</option>
                 </select>
                 <br>
 
                 <label for="bg">Background Colour : </label>
-                <input type="color" class="bg"><br>
+                <input type="color" name="bg" class="inputs"><br>
 
                 <label for="clr">Font Colour : </label>
-                <input type="color" class="clr"><br>
+                <input type="color" name="clr" class="inputs"><br>
             </div>
         </div>
         <div class="custom">

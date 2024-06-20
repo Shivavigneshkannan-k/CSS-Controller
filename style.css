@@ -3,6 +3,13 @@
     padding: 0;
     margin:0;
 }
+
+:root{
+    --font_family: monospace;
+    --font_size: 1.25em;
+    --bg: black;
+    --clr:white;
+}
 body{
     display: flex;
     justify-content: center;
@@ -24,14 +31,15 @@ body{
     border: 2px solid white;
 
 }
-
+h1{
+    padding: 1em;
+}
 .controller {
     padding:1em;
 }
 .control-unit{
     width: 80%;
     padding: 1em;
-    padding-top: 3em;
 
     display: flex;
     flex-direction: column;
@@ -55,9 +63,12 @@ body{
 .inner-box{
     border:2px solid white;
     padding: 2em;
-    background-color: black;
 
-    font-size: 1.25em;
+    background-color: var(--bg);
+    color: var(--clr) ;
+    font-size: var(--font_size);
+    /* font-size: 1.25em; */
+    font-family: var(--font_family);
 
 }
 @media (min-width:750px){
