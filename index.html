@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Controller</title>
+</head>
+<body>
+    <div class="container">
+        <div class="controller">
+            <h1>CSS Controller</h1>
+            <div class="control-unit">
+                <label for="font_size">Font Size: </label>
+                <input type="range" data-unit="px" class="font_size"><br>
+
+                <label for="font_family">Font Family : </label>
+                <select name="font_family" id="">
+                    <option value="font1">font1</option>
+                    <option value="font2">font2</option>
+                    <option value="font3">font3</option>
+                    <option value="font4">font4</option>
+                </select>
+                <br>
+
+                <label for="bg">Background Colour : </label>
+                <input type="color" class="bg"><br>
+
+                <label for="clr">Font Colour : </label>
+                <input type="color" class="clr"><br>
+            </div>
+        </div>
+        <div class="custom">
+            <div class="outer-box">
+                <div class="inner-box">Preview</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
